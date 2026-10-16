@@ -40,10 +40,11 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 .hero-section-left {
-    width: 40vw;
+    width: 30vw;
 }
 
 .hero-section-left h3 {
