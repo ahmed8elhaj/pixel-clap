@@ -1,0 +1,182 @@
+* {
+    font-family: Police sans serif • Espacement régulier • Coins arrondis;
+    font-size: 16px;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main,
+footer {
+    padding: 0 5vw;
+    background-color: #F4F6FB;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5vw 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero-section-left {
+    width: 40vw;
+}
+
+.hero-section-left h3 {
+    color: #5B4FD6;
+    font-size: 12px;
+}
+
+.hero-section-left h1 {
+    color: #1B2340;
+    font-size: 30px;
+}
+
+.hero-section-left button {
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #5B4FD6;
+    color: white;
+    font-weight: 400;
+}
+
+.hero-section-right {
+    background-color: #1B2340;
+    width: 50vw;
+    border-radius: 20px;
+    height: 25vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero-section-right .pixel {
+    color: #5B4FD6;
+}
+
+.hero-section-right pre {
+    color: white;
+}
+
+article h2 {
+    font-size: 25px;
+    color: #1B2340;
+}
+
+article p {
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.Nos-ateliers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.ateliers {
+    background-color: white;
+    width: 25vw;
+    border-radius: 20px;
+    height: 25vw;
+    padding: 15px;
+}
+
+.ateliers h3 {
+    color: #5B4FD6;
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.ateliers h4 {
+    color: #1B2340;
+    font-weight: 800;
+    font-size: 25px;
+}
+footer{
+    padding: 10px;
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid black;
+}
+@media (width<=375px){
+    header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+
+    padding: 10px 5vw 0;
+}
+.logo{
+    width: 100vw;
+    justify-content: start;
+}
+.nav-bar {
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+    align-items: center;
+justify-content: start;
+}
+.hero-section {
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+justify-content: center;
+align-items: start;
+gap: 10px;
+}
+
+.hero-section-left {
+    width: 100vw;
+}
+
+.hero-section-right {
+    background-color: #1B2340;
+    width: 90vw;
+    border-radius: 20px;
+    height: 25vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.ateliers {
+    background-color: white;
+    width: 90vw;
+    border-radius: 20px;
+    height: 20vh;
+    padding: 20px;
+    margin: 20px 0;
+}
+}
